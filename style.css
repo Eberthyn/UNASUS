@@ -208,3 +208,11 @@ footer .col-sm-2{
 #questionario input{
     margin-bottom: 15px;
 }
+
+form div {
+    display: none;
+  }
+  
+  input[type='radio']:checked + div {
+    display: block;
+  }

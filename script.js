@@ -1,3 +1,11 @@
-// adicionar condição para inserir classe concluido as imagens e barra de progresso
-
-// função para questionário aleatorio com feedback ao selecionar op
+$("input[type=radio]").click(function() {
+    
+    var $answer = $("input[type=radio]:checked"); 
+    var answer = $answer.val();
+    console.log(answer);
+    if (answer === "Eberthyn") {
+        $(".resposta").text("Acertou miserarvi !!").css("color", "green");
+    } else {
+        $(".resposta").text("Tente novamente !!").css("color", "red");
+    }
+});
