@@ -21,7 +21,7 @@ h2{
 #menuSuperior{
     border-bottom: 1px solid #00a3e5;
     border-top: 1px solid #00a3e5;
-    padding: 0px 80px 0px 80px !important;
+    padding: 0px 10% 0px 10% !important;
     
 }
 #menuSuperior li{   
@@ -55,11 +55,11 @@ h2{
 /* Estilo Padrão*/
 header{
     background-color: rgb(241, 238, 238);
-    padding: 20px 0px 20px 80px !important;
+    padding: 20px 0px 20px 10% !important;
 }
 
 #row-main{
-padding: 30px 80px 30px 80px !important;
+padding: 30px 10% 30px 10% !important;
 max-width: 100%;
 }
 
