@@ -1,5 +1,4 @@
-
-//Alternativas de resposta randômicas//
+//Alternativas de respostas randômicas//
 function shuffle(array) {
     var currentIndex = array.length,
         temporaryValue, randomIndex;
